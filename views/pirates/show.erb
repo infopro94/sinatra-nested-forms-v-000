@@ -6,11 +6,11 @@
 <h4>Weight:<%= @pirate.weight %></h4>
 </div>
 <p></p>
-<h2>Ships</h2><br>
+<p><h2>Ships</h2><br>
 <div class="ship">
 <% @ships.each do |ship| %><br>
-Name: <%= ship.name %></p><br>
-Type: <%= ship.type %></p><br>
-Booty: <%= ship.booty %></p><br>
+Name: <%= ship.name %><br>
+Type: <%= ship.type %><br>
+Booty: <%= ship.booty %><br>
 </div>
 <% end %>
